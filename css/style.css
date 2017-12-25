@@ -1,0 +1,199 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1716px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  /*background-color: white;*/
+  background: #000000 url("../img/barbershop-bg.jpg") no-repeat 50% 3px;
+  /*background-size: 2500px auto;*/
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  font-size: 16px;
+  line-height: 20px;
+  background: #000000;
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  border: 1px solid red;
+}
+
+.main-menu li {
+  float: left;
+  margin-right: 43px;
+  list-style: none;
+  border: 1px solid blue;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu li a,
+.user-block a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+  margin: 0;
+  margin-top: 13px;
+  margin-left: 10px;
+  border: 1px solid red;
+}
+
+.sign-in {
+  margin-left: 80px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 24px;
+  width: 116px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin: 60px auto 24px;
+}
+
+.index-logo img {
+  width: 368px;
+  height: 204px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-content {
+  position: relative;
+  color: #000000;
+  background: #f8f5f2;
+  margin-bottom: 35px;
+  padding-left: 80px;
+  padding-top: 50px;
+  padding-right: 55px;
+  padding-bottom: 50px;
+}
+
+.content-news-photo {
+  background-image: url("../img/content1.jpg");
+  background-repeat: no-repeat;
+  background-size: 940px 419px;
+}
+
+.content-contact-form {
+  background-image: url("../img/content2.jpg");
+  background-repeat: no-repeat;
+  background-size: 940px 396px;
+}
+
+.content-title {
+  font-size: 30px;
+  line-height: 42px;
+  margin: 0;
+  padding: 0;
+}
+
+.index-content-left {
+  float: left;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+}
+
+.index-content-right {
+  float: right;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.content-news-photo .index-content-right{
+  margin-left: 105px;
+}
+
+.content-contact-form .index-content-right {
+  margin-left: 95px;
+}
+
+.main-footer {
+  min-height: 195px;
+  margin-top: 30px;
+  padding-top: 65px;
+  padding-bottom: 45px;
+  background: #000000 url("../img/footer.jpg") no-repeat 50% 3px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 350px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-social {
+  float: left;
+  width: 145px;
+  padding: 0;
+  margin: 0;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.footer-copyright {
+  float: right;
+  width: 145px;
+  text-align: center;
+}
+
+.main-footer b {
+  padding: 0;
+  margin: 0;
+
+}
